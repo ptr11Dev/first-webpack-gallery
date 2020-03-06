@@ -10,7 +10,8 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --colors",
-    "build": "webpack"
+    "build": "webpack",
+    "preinstall": "npx npm-force-resolutions"
   },
   "keywords": [
     "webpack",
@@ -41,5 +42,12 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "braces": "^3.0.2",
+    "serialize-javascript": "^3.0.0"
+  },
+  "resolutions": {
+    "braces": "^3.0.2",
+    "serialize-javascript": "^3.0.0"
+  }
 }
