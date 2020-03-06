@@ -3,25 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>Cute Doge!</h1>
-      </div>
-    </header>
-
     <main class="app">
+      <header>
+        <div class="container">
+          <h1>Cute Doges</h1>
+        </div>
+      </header>
       <section>
         <div class="container">
-          <h2>Random cute doge</h2>
+          <h2>Random Doge</h2>
           <div class="random-dog">
-            <img src="" alt="" />
+            <div class="random-dog__wrapper">
+              <div class="random-dog__background"></div>
+              <div class="random-dog__image">
+                <img src="" alt="" />
+              </div>
+              <div class="spinner">
+                <div class="spinner__content"></div>
+              </div>
+            </div>
             <div class="random-dog__description">
-              <p>Here you can find very cute doge!</p>
+              <p>Here you can see very good doggo!</p>
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2>All Doges</h2>
+          <p>Click any breed to select next cute doge</p>
+          <div class="tiles"></div>
         </div>
       </section>
     </main>
